@@ -36,6 +36,6 @@ VOLUME /storage
 ENV RAM_SIZE "8G"
 ENV CPU_CORES "2"
 ENV DISK_SIZE "256G"
-ENV VERSION "2019"
+ENV VERSION "win10"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
