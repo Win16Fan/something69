@@ -33,9 +33,9 @@ ADD --chmod=664 https://github.com/qemus/virtiso/releases/download/v0.1.248/virt
 EXPOSE 8006 3389
 VOLUME /storage
 
-ENV RAM_SIZE "12G"
-ENV CPU_CORES "3"
+ENV RAM_SIZE "8G"
+ENV CPU_CORES "2"
 ENV DISK_SIZE "256G"
-ENV VERSION "tiny11"
+ENV VERSION "2019"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
